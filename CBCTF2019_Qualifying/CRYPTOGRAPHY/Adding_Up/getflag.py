@@ -4,6 +4,7 @@ def countme():
     for x in range(2,2020):
         x = a[-1] + a[-2]
         a.append(x)
-        print str(x)[:42]
+    else:
+        print(str(x)[:42])
 
 countme()
